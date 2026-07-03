@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f7f3ea;
+}
+
+.dark {
+  color-scheme: dark;
+  background: #101418;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.glass {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(22px);
+}
+
+.dark .glass {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(20, 24, 26, 0.68);
+}
+
+.handwriting-stroke {
+  stroke-dasharray: 920;
+  stroke-dashoffset: 920;
+  animation: write 4.8s ease-in-out infinite;
+}
+
+@keyframes write {
+  0% {
+    stroke-dashoffset: 920;
+  }
+  42%,
+  70% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -920;
+  }
+}
+
+.font-preview {
+  font-feature-settings: "kern", "liga";
+}
+
