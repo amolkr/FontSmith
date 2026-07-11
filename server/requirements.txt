@@ -8,3 +8,4 @@ Pillow==11.0.0
 numpy==2.2.1
 fonttools==4.55.3
 svgwrite==1.4.3
+

@@ -8,6 +8,7 @@ import { api } from "../api/http";
 import { Button } from "../components/ui/Button";
 import { GlassCard } from "../components/ui/GlassCard";
 import { Input } from "../components/ui/Input";
+import handwritingTemplateUrl from "../assets/handwriting-template.svg?url";
 
 async function cropImage(imageSrc: string, area: Area, filename: string): Promise<File> {
   const image = new Image();
@@ -90,7 +91,7 @@ export function UploadPage() {
                   Download the sheet, write each character, then upload a photo or scan.
                 </p>
               </div>
-              <a href="/handwriting-template.svg" download="fontsmith-handwriting-template.svg">
+              <a href={handwritingTemplateUrl} download="fontsmith-handwriting-template.svg">
                 <Button variant="secondary" className="w-full whitespace-nowrap sm:w-auto">
                   <Download className="h-4 w-4" /> Template
                 </Button>

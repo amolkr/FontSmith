@@ -4,15 +4,15 @@ FontSmith is a production-oriented full-stack application that converts handwrit
 
 ## Features
 
-- React, Vite, TypeScript, Tailwind CSS, React Router, Framer Motion
-- FastAPI backend with public async REST APIs
-- MongoDB via Motor, with an in-memory fallback for local demos
-- Drag-and-drop image upload with PNG/JPG/JPEG validation
-- Downloadable handwriting template for printable sample collection
-- Image preview, cropping, upload progress, staged processing screen
-- OpenCV pipeline for grayscale conversion, shadow removal, denoising, thresholding, contour detection, segmentation, and character normalization
-- TTF and OTF downloads generated with `fontTools`
-- Font gallery, search, rename, delete, favorite, download statistics, history, profile settings, light/dark mode
+- React, Vite, TypeScript, Tailwind CSS, React Router, Framer Motion.
+- FastAPI backend with public async REST APIs.
+- MongoDB via Motor, with an in-memory fallback for local demos.
+- Drag-and-drop image upload with PNG/JPG/JPEG validation.
+- Downloadable handwriting template for printable sample collection.
+- Image preview, cropping, upload progress, staged processing screen.
+- OpenCV pipeline for grayscale conversion, shadow removal, denoising, thresholding, contour detection, segmentation, and character normalization.
+- TTF and OTF downloads generated with `fontTools`.
+- Font gallery, search, rename, delete, favorite, download statistics, history, profile settings, light/dark mode.
 
 ## Project Structure
 
@@ -36,7 +36,7 @@ cp server/.env.example server/.env
 Client:
 
 ```env
-VITE_API_URL=http://localhost:8000/api
+VITE_API_URL=http://localhost:8000/your-api
 ```
 
 Server:
