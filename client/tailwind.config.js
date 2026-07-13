@@ -15,6 +15,7 @@ export default {
         sea: "#31c7b7",
         coral: "#ee6f5b"
       },
+
       boxShadow: {
         glow: "0 24px 80px rgba(49, 199, 183, 0.18)",
         card: "0 18px 60px rgba(16, 20, 24, 0.16)"
@@ -29,4 +30,3 @@ export default {
   },
   plugins: []
 };
-

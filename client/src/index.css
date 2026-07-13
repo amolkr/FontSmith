@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   color-scheme: light;
   background: #f7f3ea;
@@ -65,3 +64,4 @@ textarea {
 .font-preview {
   font-feature-settings: "kern", "liga";
 }
+
