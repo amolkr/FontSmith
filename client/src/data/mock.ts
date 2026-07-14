@@ -86,4 +86,3 @@ export const faqs = [
     answer: "The FastAPI server performs upload validation, OpenCV image cleanup, glyph extraction, and font file generation."
   }
 ];
-
